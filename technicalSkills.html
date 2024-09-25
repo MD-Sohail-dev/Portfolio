@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Details</title>
+    <style>
+   body{
+    background-image: url("skills.jpg");
+    background-size:cover;
+   }
+   h1{
+    text-align: center;
+    color: white;
+    font-size: 90px;
+    animation-name: animation;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+   }
+  #skillDiv{
+    height: 500px;
+    width: 100px;
+    position: relative;
+    left:500px;
+
+  } 
+  ul{
+    font-size: 50PX;
+    color: white;
+    animation-name: animation;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes animation{
+    from{color: aliceblue;}
+    to{color: gold;}
+  }
+    </style>
+</head>
+<body>
+    
+  <header><h1>Technical Skills</h1></header>
+  <main>
+    <div id="skillDiv">
+        <ul> <li>JAVA</li><li>OOP</li><li>SQL</li><li>JDBC</li><li>C</li><li>HTML</li><li>CSS</li>
+        
+        </ul>
+    </div>
+  </main>
+</body>
+</html>
